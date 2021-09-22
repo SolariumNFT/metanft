@@ -6,7 +6,6 @@ html {
   width: 100vw;
   overflow-x: hidden;
 }
-
 #root {
   height: 100%;
   font-family: 'Graphik Web', sans-serif;
@@ -27,6 +26,7 @@ html {
 body {
   --row-highlight: @background-color-base;
   margin: 0;
+
   font-style: normal;
   font-weight: normal;
   font-family: 'Graphik Web' !important;
@@ -53,9 +53,9 @@ img:not([src]) {
   pointer-events: none;
   width: 100%;
 }
-
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 
 .app-logo {
@@ -76,7 +76,6 @@ code {
     font-size: 36px;
     margin: 0px;
   }
-
 }
 
 .ant-image-img {
@@ -86,12 +85,16 @@ code {
 .ant-card-cover {
   position: relative;
   overflow: hidden;
-
-  .ant-image-img, video {
+  .ant-image-img,
+  video {
     height: 300px;
     object-fit: cover;
   }
-
+  iframe {
+    height: 300px;
+    object-fit: cover;
+    border:none;
+  }
 }
 
 .placebid {
@@ -111,7 +114,6 @@ code {
   :hover {
     background-color: #434343;
   }
-
 }
 
 .text-center {
@@ -133,6 +135,7 @@ code {
   display: flex;
   align-items: center;
   letter-spacing: 0.02em;
+
   color: @text-color-secondary;
 }
 
@@ -162,18 +165,15 @@ code {
 
 .creators {
   // display: flex;
-
-  @media (max-width:475px) {
+  @media (max-width: 475px) {
     flex-wrap: wrap;
   }
-
 }
 
 .ant-tabs-tab-active {
   .tab-title {
     color: @text-color;
   }
-
 }
 
 .full-history {
