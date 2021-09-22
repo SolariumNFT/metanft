@@ -8,9 +8,14 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Metaplex NFT Marketplace</title>
+        <title>Solarium NFT Store</title>
       </Head>
-      <div id="root">
+      <div id="root" 
+        style={{backgroundImage: "url(/moonbackgroundblue.png)",
+              backgroundRepeat: 'no-repeat',
+              backgroundAttachment: 'fixed',
+              backgroundSize: 'cover'}} >
+        
         <Component {...pageProps} />
       </div>
     </>
