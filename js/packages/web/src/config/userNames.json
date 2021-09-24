@@ -1,32 +1,32 @@
 {
   "3UjtEcEtWBJvw2P2nwD8n2KN9xtEgfdEYfBDGJvm6XCh": {
-    "name": "Solarium NFT",
-    "image": "favicon1-96x96.png",
+    "name": "Katerys",
+    "image": "kateryscolour.png",
     "description": "Original Creator of Solarium NFT. Mostly an artist but also runs the site. Follow me on Twitter @SolariumNFT",
     "background": "Background.png"
   },
-  "": {
+  "8fUR7ftKpLgd3xmWjHJksLRHjYEEPcXL6Bz16VqzLFzc": {
     "name": "Collaborator 1",
-    "image": "",
+    "image": "collaborator4.png",
     "description": "Supplied computing power and website assistance. Likes blue.",
-    "background": ""
+    "background": "Bacground.png"
   },
   "44kiGWWsSgdqPMvmqYgTS78Mx2BKCWzduATkfY4biU97": {
     "name": "Collaborator 2",
-    "image": "https://pbs.twimg.com/profile_images/1393399819213983746/2a8l5muc_400x400.png",
-    "description": "",
-    "background": ""
+    "image": "collaborator2.png",
+    "description": "Top secret NFT advisor",
+    "background": "Background.png"
   },
   "3yp9iTsCgZoBsXhtRLB8cWHNcTDeR6VJniRuDrHNTuxU": {
-    "name": "James Madison",
-    "image": "https://pbs.twimg.com/profile_images/1393353972371623938/ZMWvvptg_400x400.jpg",
-    "description": "",
-    "background": ""
+    "name": "Collaborator 3",
+    "image": "collaborator1.png",
+    "description": "Tech Support",
+    "background": "Background.png"
   },
   "SoL351y4uKWtbH14AU1Rhiao96aBM4u57bMi5Vj2XJc": {
-    "name": "Solana",
-    "image": "https://pbs.twimg.com/profile_images/1299400345144049665/sPxnVXa7_400x400.jpg",
-    "description": "Account used by Solana to mint official NFTs.",
-    "background": ""
+    "name": "Collaborator 4",
+    "image": "collaborator3",
+    "description": "Tech Support",
+    "background": "Background.png"
   }
 }
